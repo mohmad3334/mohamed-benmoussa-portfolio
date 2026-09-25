@@ -1,0 +1,23 @@
+[
+    {
+        "id" : "01",
+        "title" : "E-commerce Website",
+        "Skills" : ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "REACT ROUTER", "FRAMER MOTION", "i18next"],
+        "image" : "/src/assets/projectsImages/E-commerce website.webp",
+        "link" : "https://luxury-todo-app.vercel.app/"
+    },
+    {
+        "id" : "02",
+        "title" : "Modern Todo list App",
+        "Skills" : ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "FRAMER MOTION"],
+        "image" : "/src/assets/projectsImages/Modern todo list.webp",
+        "link" : "https://aura-x-ecommerce-puce.vercel.app/"
+    },
+    {
+        "id" : "03",
+        "title" : "Portfolio Website",
+        "Skills" : ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "EmailJS"],
+        "image": "/src/assets/projectsImages/Portfolio website.webp",
+        "link" : "https://mohmad-portfolio.vercel.app/"
+    }
+]
