@@ -10,3 +10,6 @@
   --color-tertiary: #FF5E00;
   --color-dark-bg: #0E0E0E;
 }
+html {
+  scroll-behavior: smooth;
+}

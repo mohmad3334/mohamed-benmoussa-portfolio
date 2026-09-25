@@ -37,7 +37,7 @@ export default function Dossier() {
     }, []);
 
     return (
-        <div ref={triggerRef} className="overflow-hidden bg-dark-bg text-white font-mono min-h-screen flex flex-col justify-between py-8">
+        <div id="skills" ref={triggerRef} className="overflow-hidden bg-dark-bg text-white font-mono min-h-screen flex flex-col justify-between py-8">
             <div className="w-full max-w-7xl mx-auto px-6 md:px-12 pt-4 pb-4 flex justify-between items-center shrink-0">
                 <h3 className="text-neutral-500 text-xs md:text-sm tracking-widest uppercase">
                     // 002 — PERSONNEL DOSSIER & SYSTEM SPECS
