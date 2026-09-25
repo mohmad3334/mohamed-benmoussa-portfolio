@@ -1,16 +1,39 @@
-# React + Vite
+# ⚡ MOHAMED BENMOUSSA — PERSONAL DOSSIER & PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A Cyberpunk & Tech-inspired interactive developer portfolio engineered with React 19, Tailwind CSS v4, and GSAP ScrollTrigger.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack & System Architecture
 
-## React Compiler
+- **Core Framework:** React 19 + Vite
+- **Styling Engine:** Tailwind CSS v4
+- **Animation & Physics:** GSAP (ScrollTrigger, MatchMedia)
+- **Icons & UI:** Lucide React
+- **Deployment:** Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔥 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Spatial Horizontal Scroll:** Custom pinned viewport for dossier navigation built with GSAP.
+- **Adaptive Responsive Design:** Seamless transition between horizontal spatial view on Desktop and clean vertical stack on Mobile/Tablet.
+- **Cyberpunk / Tech Matrix Vibe:** Custom glow effects, status indicators, and tactical typography.
+- **Performance Optimized:** Clean modular code structure targeting sub-16.6ms render cycles (60 FPS).
+
+---
+
+## 🚀 Local Development Setup
+
+```bash
+# Clone the repository
+git clone [https://github.com/mohmad3334/mohamed-benmoussa-portfolio.git](https://github.com/mohmad3334/mohamed-benmoussa-portfolio.git)
+
+# Navigate into directory
+cd mohamed-benmoussa-portfolio
+
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
