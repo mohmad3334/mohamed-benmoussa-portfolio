@@ -75,7 +75,7 @@ export default function ProjectCard({
                         decoding="async"
                         width="384"
                         height="240"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full"
                     />
                 </div>
             )}
