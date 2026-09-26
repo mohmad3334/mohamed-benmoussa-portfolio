@@ -10,11 +10,14 @@ export default function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
+        
         emailjs.sendForm(
             import.meta.env.VITE_EMAILJS_SERVICE_ID,
             import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-            formRef.current, 
-            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            formRef.current,
+            {
+                publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+            }
         )
         .then(() => {
             setLoading(false);
