@@ -58,7 +58,7 @@ export default function TacticalBackground({ children }) {
             ctx.fillStyle = "#0d0d0d";
             ctx.fillRect(0, 0, width, height);
 
-            // 1. Grid Lines
+            // Grid Lines
             ctx.strokeStyle = "rgba(255, 255, 255, 0.025)";
             ctx.lineWidth = 1;
 
@@ -76,7 +76,7 @@ export default function TacticalBackground({ children }) {
                 ctx.stroke();
             }
 
-            // 2. Mouse Glow
+            // Mouse Glow
             const radialGlow = ctx.createRadialGradient(
                 mouse.x,
                 mouse.y,
@@ -94,7 +94,7 @@ export default function TacticalBackground({ children }) {
             ctx.arc(mouse.x, mouse.y, 180, 0, Math.PI * 2);
             ctx.fill();
 
-            // 3. Connecting Lines
+            // Connecting Lines
             const range = 90;
             const startX = Math.max(0, Math.floor((mouse.x - range) / gridSize) * gridSize);
             const endX = Math.min(width, Math.ceil((mouse.x + range) / gridSize) * gridSize);
@@ -121,7 +121,7 @@ export default function TacticalBackground({ children }) {
                 }
             }
 
-            // 4. Click Shockwaves
+            // Click Shockwaves
             shockwaves.forEach((wave, index) => {
                 wave.radius += 2.5;
                 wave.alpha -= 0.025;
@@ -137,7 +137,7 @@ export default function TacticalBackground({ children }) {
                 }
             });
 
-            // 5. Pointer Crosshair
+            // Pointer Crosshair
             const closeX = Math.round(mouse.x / gridSize) * gridSize;
             const closeY = Math.round(mouse.y / gridSize) * gridSize;
 
@@ -175,7 +175,7 @@ export default function TacticalBackground({ children }) {
     }, []);
 
     return (
-        <section className="relative w-full min-h-[calc(100vh-80px)] overflow-hidden flex flex-col justify-center">
+        <section id="about" className="relative w-full min-h-[calc(100vh-80px)] overflow-hidden flex flex-col justify-center">
             <canvas
                 ref={canvasRef}
                 className="absolute inset-0 pointer-events-none z-0"

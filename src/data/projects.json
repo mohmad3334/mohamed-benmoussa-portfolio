@@ -1,23 +1,23 @@
 [
     {
         "id": "01",
-        "title": "E-commerce Website",
-        "Skills": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "REACT ROUTER", "FRAMER MOTION", "i18next"],
-        "image": "/projectsImages/ecommerce-website.webp",
+        "title": "Modern Todo list App",
+        "Skills": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "FRAMER MOTION"],
+        "image": "../../public/projectsImages/luxury-todo-app.webp",
         "link": "https://luxury-todo-app.vercel.app/"
     },
     {
         "id": "02",
-        "title": "Modern Todo list App",
-        "Skills": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "FRAMER MOTION"],
-        "image": "/projectsImages/modern-todo-list.webp",
+        "title": "E-commerce Website",
+        "Skills": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "REACT ROUTER", "FRAMER MOTION", "i18next"],
+        "image": "../../public/projectsImages/E-commerce-website.webp",
         "link": "https://aura-x-ecommerce-puce.vercel.app/"
     },
     {
         "id": "03",
         "title": "Portfolio Website",
         "Skills": ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "EmailJS"],
-        "image": "/projectsImages/portfolio-website.webp",
+        "image": "../../public/projectsImages/portfolio-website.webp",
         "link": "https://mohamed-benmoussa-portfolio.vercel.app/"
     }
 ]
